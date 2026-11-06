@@ -1,0 +1,291 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Administrativo</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <!-- MENU LATERAL -->
+        <aside class="sidebar">
+
+            <div class="logo">
+                <div class="logo-icon">S</div>
+                <h2>Smart<span>Panel</span></h2>
+            </div>
+
+            <p class="menu-title">MENU PRINCIPAL</p>
+
+            <nav>
+                <a href="#" class="active">
+                    <span>▦</span> Dashboard
+                </a>
+
+                <a href="#">
+                    <span>♙</span> Clientes
+                </a>
+
+                <a href="#">
+                    <span>▤</span> Relatórios
+                </a>
+
+                <a href="#">
+                    <span>▣</span> Projetos
+                </a>
+
+                <a href="#">
+                    <span>⚙</span> Configurações
+                </a>
+            </nav>
+
+            <div class="sidebar-bottom">
+                <div class="user">
+                    <div class="avatar">FC</div>
+                    <div>
+                        <strong>Felipe Costa</strong>
+                        <small>Administrador</small>
+                    </div>
+                </div>
+            </div>
+
+        </aside>
+
+       
+        <main class="main">
+
+            <header class="header">
+                <div>
+                    <h1>Dashboard</h1>
+                    <p>Bem-vindo ao painel administrativo.</p>
+                </div>
+
+                <div class="header-right">
+                    <span class="notification">♧</span>
+                    <span class="date">Novembro, 2026</span>
+                </div>
+            </header>
+
+         
+            <section class="cards">
+
+                <div class="card">
+                    <div class="card-top">
+                        <span>Total de clientes</span>
+                        <div class="card-icon blue">♙</div>
+                    </div>
+                    <h2>2.845</h2>
+                    <p class="positive">↑ 12,5% <span>em relação ao mês passado</span></p>
+                </div>
+
+                <div class="card">
+                    <div class="card-top">
+                        <span>Faturamento</span>
+                        <div class="card-icon green">R$</div>
+                    </div>
+                    <h2>R$ 48.250</h2>
+                    <p class="positive">↑ 8,2% <span>em relação ao mês passado</span></p>
+                </div>
+
+                <div class="card">
+                    <div class="card-top">
+                        <span>Projetos ativos</span>
+                        <div class="card-icon purple">▣</div>
+                    </div>
+                    <h2>128</h2>
+                    <p class="positive">↑ 5,4% <span>em relação ao mês passado</span></p>
+                </div>
+
+                <div class="card">
+                    <div class="card-top">
+                        <span>Taxa de conversão</span>
+                        <div class="card-icon orange">%</div>
+                    </div>
+                    <h2>76,8%</h2>
+                    <p class="positive">↑ 3,1% <span>em relação ao mês passado</span></p>
+                </div>
+
+            </section>
+
+            <!-- GRÁFICOS -->
+            <section class="dashboard-grid">
+
+                <div class="panel revenue">
+
+                    <div class="panel-header">
+                        <div>
+                            <h3>Visão geral</h3>
+                            <p>Desempenho financeiro mensal</p>
+                        </div>
+
+                        <select>
+                            <option>Últimos 7 meses</option>
+                            <option>Últimos 30 dias</option>
+                        </select>
+                    </div>
+
+                    <div class="chart">
+                        <div class="chart-line">
+                            <span>50 mil</span>
+                            <span>40 mil</span>
+                            <span>30 mil</span>
+                            <span>20 mil</span>
+                            <span>10 mil</span>
+                        </div>
+
+                        <div class="bars">
+                            <div class="bar-item">
+                                <div class="bar" style="height: 40%"></div>
+                                <span>Abr</span>
+                            </div>
+
+                            <div class="bar-item">
+                                <div class="bar" style="height: 60%"></div>
+                                <span>Mai</span>
+                            </div>
+
+                            <div class="bar-item">
+                                <div class="bar" style="height: 48%"></div>
+                                <span>Jun</span>
+                            </div>
+
+                            <div class="bar-item">
+                                <div class="bar" style="height: 75%"></div>
+                                <span>Jul</span>
+                            </div>
+
+                            <div class="bar-item">
+                                <div class="bar" style="height: 65%"></div>
+                                <span>Ago</span>
+                            </div>
+
+                            <div class="bar-item">
+                                <div class="bar" style="height: 88%"></div>
+                                <span>Set</span>
+                            </div>
+
+                            <div class="bar-item">
+                                <div class="bar highlight" style="height: 100%"></div>
+                                <span>Out</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="panel activities">
+
+                    <div class="panel-header">
+                        <div>
+                            <h3>Atividades recentes</h3>
+                            <p>Últimas atualizações</p>
+                        </div>
+                    </div>
+
+                    <div class="activity">
+                        <div class="activity-icon green">✓</div>
+                        <div>
+                            <strong>Novo cliente cadastrado</strong>
+                            <small>Há 10 minutos</small>
+                        </div>
+                    </div>
+
+                    <div class="activity">
+                        <div class="activity-icon blue">R$</div>
+                        <div>
+                            <strong>Pagamento recebido</strong>
+                            <small>Há 35 minutos</small>
+                        </div>
+                    </div>
+
+                    <div class="activity">
+                        <div class="activity-icon purple">▣</div>
+                        <div>
+                            <strong>Projeto atualizado</strong>
+                            <small>Há 1 hora</small>
+                        </div>
+                    </div>
+
+                    <div class="activity">
+                        <div class="activity-icon orange">!</div>
+                        <div>
+                            <strong>Novo relatório gerado</strong>
+                            <small>Há 2 horas</small>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+
+        
+            <section class="panel table-panel">
+
+                <div class="panel-header">
+                    <div>
+                        <h3>Clientes recentes</h3>
+                        <p>Gerenciamento dos últimos cadastros</p>
+                    </div>
+
+                    <a href="#">Ver todos</a>
+                </div>
+
+                <div class="table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Cliente</th>
+                                <th>E-mail</th>
+                                <th>Data</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>Mariana Oliveira</td>
+                                <td>mariana@email.com</td>
+                                <td>06/11/2026</td>
+                                <td><span class="status active-status">Ativo</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>Lucas Ferreira</td>
+                                <td>lucas@email.com</td>
+                                <td>05/11/2026</td>
+                                <td><span class="status active-status">Ativo</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>Ana Santos</td>
+                                <td>ana@email.com</td>
+                                <td>04/11/2026</td>
+                                <td><span class="status pending-status">Pendente</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>Gabriel Costa</td>
+                                <td>gabriel@email.com</td>
+                                <td>03/11/2026</td>
+                                <td><span class="status active-status">Ativo</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </section>
+
+            <footer>
+                © 2026 SmartPanel. Todos os direitos reservados.
+            </footer>
+
+        </main>
+
+    </div>
+
+</body>
+</html>
